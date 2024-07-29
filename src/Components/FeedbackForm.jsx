@@ -9,7 +9,7 @@ const FeedbackForm = () => {
         rating: ''
       });
       const handleChange = (event) => {
-        const { name, value } = event.target;
+        const { name, value } = event.target;    //name refers to all the input tags it matches all the input tags with their value
         setFormData({
           ...formData,
           [name]: value
